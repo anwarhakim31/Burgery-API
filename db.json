@@ -1,321 +1,353 @@
 {
-  "categories": [
+  "users": [
+    {
+      "id": "bb8b",
+      "email": "hakim31@gmail.com",
+      "username": "hakim31",
+      "password": "hakim3111"
+    },
+    {
+      "id": "2104",
+      "email": "hakim@gmail.com",
+      "username": "anwar31",
+      "password": "hakim31"
+    }
+  ],
+  "category": [
     {
       "id": "1",
-      "nama": "Makanan"
+      "title": "Food"
     },
     {
       "id": "2",
-      "nama": "Minuman"
+      "title": "Bevarage"
     },
     {
       "id": "3",
-      "nama": "Cemilan"
+      "title": "Snack"
     }
   ],
   "products": [
     {
       "id": "1",
       "kode": "K-01",
-      "nama": "Sate Ayam",
+      "nama": "Double Beef Burger",
       "harga": 16000,
       "is_ready": true,
-      "gambar": "sate-ayam.jpg",
+      "gambar": "product-1.png",
       "category": {
         "id": 1,
-        "nama": "Makanan"
+        "nama": "Food"
       }
     },
     {
       "id": "2",
       "kode": "K-02",
-      "nama": "Nasi Goreng Telur",
-      "harga": 14000,
+      "nama": "Chicken Crispy Burger",
+      "harga": 20000,
       "is_ready": true,
-      "gambar": "nasi-goreng-telor.jpg",
+      "gambar": "product-2.png",
       "category": {
         "id": 1,
-        "nama": "Makanan"
+        "nama": "Food"
       }
     },
     {
       "id": "3",
       "kode": "K-03",
-      "nama": "Nasi Rames",
-      "harga": 12000,
+      "nama": "Fish Fillet Burger",
+      "harga": 20000,
       "is_ready": true,
-      "gambar": "nasi-rames.jpg",
+      "gambar": "product-3.png",
       "category": {
         "id": 1,
-        "nama": "Makanan"
+        "nama": "Food"
       }
     },
     {
       "id": "4",
       "kode": "K-04",
-      "nama": "Lontong Opor Ayam",
+      "nama": "Black Burger",
       "harga": 18000,
       "is_ready": true,
-      "gambar": "lontong-opor-ayam.jpg",
+      "gambar": "product-4.png",
       "category": {
         "id": 1,
-        "nama": "Makanan"
+        "nama": "Food"
       }
     },
     {
       "id": "5",
       "kode": "K-05",
-      "nama": "Mie Goreng",
-      "harga": 13000,
+      "nama": "Cheap Burger",
+      "harga": 9000,
       "is_ready": true,
-      "gambar": "mie-goreng.jpg",
+      "gambar": "product-5.png",
       "category": {
         "id": 1,
-        "nama": "Makanan"
+        "nama": "Food"
       }
     },
     {
       "id": "6",
       "kode": "K-06",
-      "nama": "Bakso",
-      "harga": 10000,
+      "nama": "Double Chese with Beff Burger",
+      "harga": 30000,
       "is_ready": true,
-      "gambar": "bakso.jpg",
+      "gambar": "product-6.png",
       "category": {
         "id": 1,
-        "nama": "Makanan"
+        "nama": "Food"
       }
     },
     {
       "id": "7",
       "kode": "K-07",
-      "nama": "Mie Ayam Bakso",
+      "nama": "Signature Burger",
       "harga": 14000,
       "is_ready": true,
-      "gambar": "mie-ayam-bakso.jpg",
+      "gambar": "product-13.png",
       "category": {
         "id": 1,
-        "nama": "Makanan"
+        "nama": "Food"
       }
     },
     {
       "id": "8",
       "kode": "K-08",
-      "nama": "Pangsit 6 pcs",
+      "nama": "Normal Burger",
       "harga": 5000,
       "is_ready": true,
-      "gambar": "pangsit.jpg",
+      "gambar": "product-7.png",
       "category": {
         "id": 3,
-        "nama": "Cemilan"
+        "nama": "Snack"
       }
     },
     {
       "id": "9",
       "kode": "K-09",
-      "nama": "Kentang Goreng",
-      "harga": 5000,
+      "nama": "Fried Frice",
+      "harga": 7000,
       "is_ready": true,
-      "gambar": "kentang-goreng.jpg",
+      "gambar": "product-9.png",
       "category": {
         "id": 3,
-        "nama": "Cemilan"
+        "nama": "Snack"
       }
     },
     {
       "id": "10",
       "kode": "K-010",
-      "nama": "Cheese Burger",
+      "nama": "Hot Dog",
       "harga": 15000,
       "is_ready": true,
-      "gambar": "cheese-burger.jpg",
+      "gambar": "product-8.png",
       "category": {
         "id": 3,
-        "nama": "Cemilan"
+        "nama": "Snack"
       }
     },
     {
       "id": "11",
       "kode": "K-011",
-      "nama": "Coffe Late",
+      "nama": "Chikcen Nugget",
       "harga": 15000,
       "is_ready": true,
-      "gambar": "coffe-late.jpg",
+      "gambar": "product-10.png",
       "category": {
-        "id": 2,
-        "nama": "Minuman"
+        "id": 3,
+        "nama": "Snack"
       }
     },
     {
       "id": "12",
       "kode": "K-012",
-      "nama": "Es Jeruk",
+      "nama": "Potato chips",
       "harga": 7000,
       "is_ready": true,
-      "gambar": "es-jeruk.jpg",
+      "gambar": "product-11.png",
       "category": {
-        "id": 2,
-        "nama": "Minuman"
+        "id": 3,
+        "nama": "Snack"
       }
     },
     {
       "id": "13",
       "kode": "K-013",
-      "nama": "Es Teh",
+      "nama": "Ice Tea",
       "harga": 5000,
       "is_ready": true,
-      "gambar": "es-teh.jpg",
+      "gambar": "drink-4.png",
       "category": {
         "id": 2,
-        "nama": "Minuman"
+        "nama": "Bevarage"
       }
     },
     {
       "id": "14",
       "kode": "K-014",
-      "nama": "Teh Hangat",
-      "harga": 3000,
+      "nama": "Manggo Juice",
+      "harga": 7000,
       "is_ready": true,
-      "gambar": "teh-hangat.jpg",
+      "gambar": "drink-3.png",
       "category": {
         "id": 2,
-        "nama": "Minuman"
+        "nama": "Bevarage"
       }
-    }
-  ],
-  "keranjangs": [
-    {
-      "id": "e089",
-      "jumlah": 1,
-      "total_harga": 12000,
-      "product": {
-        "id": "3",
-        "kode": "K-03",
-        "nama": "Nasi Rames",
-        "harga": 12000,
-        "is_ready": true,
-        "gambar": "nasi-rames.jpg",
-        "category": {
-          "id": 1,
-          "nama": "Makanan"
-        }
-      }
-    }
-  ],
-  "pesanans": [
-    {
-      "id": "c831",
-      "total_bayar": 67000,
-      "keranjang": [
-        {
-          "jumlah": 3,
-          "total_harga": 36000,
-          "product": {
-            "id": "3",
-            "kode": "K-03",
-            "nama": "Nasi Rames",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "nasi-rames.jpg",
-            "category": {
-              "id": 1,
-              "nama": "Makanan"
-            }
-          },
-          "id": "6d0f"
-        },
-        {
-          "id": "f612",
-          "jumlah": 1,
-          "total_harga": 16000,
-          "product": {
-            "id": "1",
-            "kode": "K-01",
-            "nama": "Sate Ayam",
-            "harga": 16000,
-            "is_ready": true,
-            "gambar": "sate-ayam.jpg",
-            "category": {
-              "id": 1,
-              "nama": "Makanan"
-            }
-          }
-        },
-        {
-          "id": "8b14",
-          "jumlah": 1,
-          "total_harga": 15000,
-          "product": {
-            "id": "11",
-            "kode": "K-011",
-            "nama": "Coffe Late",
-            "harga": 15000,
-            "is_ready": true,
-            "gambar": "coffe-late.jpg",
-            "category": {
-              "id": 2,
-              "nama": "Minuman"
-            }
-          }
-        }
-      ]
     },
     {
-      "id": "a5c9",
-      "total_bayar": 67000,
-      "keranjang": [
-        {
-          "jumlah": 3,
-          "total_harga": 36000,
-          "product": {
-            "id": "3",
-            "kode": "K-03",
-            "nama": "Nasi Rames",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "nasi-rames.jpg",
-            "category": {
-              "id": 1,
-              "nama": "Makanan"
-            }
-          },
-          "id": "6d0f"
-        },
-        {
-          "id": "f612",
-          "jumlah": 1,
-          "total_harga": 16000,
-          "product": {
-            "id": "1",
-            "kode": "K-01",
-            "nama": "Sate Ayam",
-            "harga": 16000,
-            "is_ready": true,
-            "gambar": "sate-ayam.jpg",
-            "category": {
-              "id": 1,
-              "nama": "Makanan"
-            }
-          }
-        },
-        {
-          "id": "8b14",
-          "jumlah": 1,
-          "total_harga": 15000,
-          "product": {
-            "id": "11",
-            "kode": "K-011",
-            "nama": "Coffe Late",
-            "harga": 15000,
-            "is_ready": true,
-            "gambar": "coffe-late.jpg",
-            "category": {
-              "id": 2,
-              "nama": "Minuman"
-            }
+      "id": "15",
+      "kode": "K-015",
+      "nama": "Orange Juice",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "drink-2.png",
+      "category": {
+        "id": 2,
+        "nama": "Bevarage"
+      }
+    },
+    {
+      "id": "16",
+      "kode": "K-016",
+      "nama": "Coca Cola",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "drink-1.png",
+      "category": {
+        "id": 2,
+        "nama": "Bevarage"
+      }
+    }
+  ],
+  "keranjang": [],
+  "pesanan": [
+    {
+      "0": {
+        "id": "bc5e",
+        "Total_Harga": 20000,
+        "jumlah": 1,
+        "product": {
+          "id": "3",
+          "kode": "K-03",
+          "nama": "Fish Fillet Burger",
+          "harga": 20000,
+          "is_ready": true,
+          "gambar": "product-3.png",
+          "category": {
+            "id": 1,
+            "nama": "Food"
           }
         }
-      ]
+      },
+      "1": {
+        "id": "8ace",
+        "Total_Harga": 20000,
+        "jumlah": 1,
+        "product": {
+          "id": "2",
+          "kode": "K-02",
+          "nama": "Chicken Crispy Burger",
+          "harga": 20000,
+          "is_ready": true,
+          "gambar": "product-2.png",
+          "category": {
+            "id": 1,
+            "nama": "Food"
+          }
+        }
+      },
+      "2": {
+        "id": "2daa",
+        "Total_Harga": 16000,
+        "jumlah": 1,
+        "product": {
+          "id": "1",
+          "kode": "K-01",
+          "nama": "Double Beef Burger",
+          "harga": 16000,
+          "is_ready": true,
+          "gambar": "product-1.png",
+          "category": {
+            "id": 1,
+            "nama": "Food"
+          }
+        }
+      },
+      "3": {
+        "id": "d17b",
+        "Total_Harga": 18000,
+        "jumlah": 1,
+        "product": {
+          "id": "4",
+          "kode": "K-04",
+          "nama": "Black Burger",
+          "harga": 18000,
+          "is_ready": true,
+          "gambar": "product-4.png",
+          "category": {
+            "id": 1,
+            "nama": "Food"
+          }
+        }
+      },
+      "4": {
+        "id": "933c",
+        "Total_Harga": 9000,
+        "jumlah": 1,
+        "product": {
+          "id": "5",
+          "kode": "K-05",
+          "nama": "Cheap Burger",
+          "harga": 9000,
+          "is_ready": true,
+          "gambar": "product-5.png",
+          "category": {
+            "id": 1,
+            "nama": "Food"
+          }
+        }
+      },
+      "5": {
+        "id": "c2bc",
+        "Total_Harga": 7000,
+        "jumlah": 1,
+        "product": {
+          "id": "14",
+          "kode": "K-014",
+          "nama": "Manggo Juice",
+          "harga": 7000,
+          "is_ready": true,
+          "gambar": "drink-3.png",
+          "category": {
+            "id": 2,
+            "nama": "Bevarage"
+          }
+        }
+      },
+      "6": {
+        "id": "2e6c",
+        "Total_Harga": 7000,
+        "jumlah": 1,
+        "product": {
+          "id": "15",
+          "kode": "K-015",
+          "nama": "Orange Juice",
+          "harga": 7000,
+          "is_ready": true,
+          "gambar": "drink-2.png",
+          "category": {
+            "id": 2,
+            "nama": "Bevarage"
+          }
+        }
+      },
+      "id": "827a",
+      "Nama_Pemesan": "hakim",
+      "Total_Bayar": 97000,
+      "Uang_cash": "200000",
+      "kembalian": "200000"
     }
   ]
 }
